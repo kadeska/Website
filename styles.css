@@ -34,7 +34,7 @@ header {
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
-    border: double;
+    border: groove;
     border-radius: 50px;
 }
 
