@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
+article{
+    width: clamp(200px, 50%, 600px);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
