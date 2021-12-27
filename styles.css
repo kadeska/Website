@@ -18,16 +18,18 @@ article{
 
     /* background-color: var(--background-color); */
 }
-
+/*
 li, a, button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
-}
+} */
 
 header {
+    
+
     background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
@@ -36,8 +38,13 @@ header {
 }
 
 
-.nav__links {
+.nav__links a{
     list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 .nav__links li {
@@ -67,6 +74,7 @@ header {
 }
 
 .project__list li {
+    list-style: decimal;
 }
 
 .nav__links a:hover {
