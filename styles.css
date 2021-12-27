@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding;
     background-color: #24252A;
 }
+
 li, a, button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -14,35 +15,35 @@ li, a, button {
     text-decoration: none;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
 
-.logo{
+.logo {
     cursor: pointer;
 }
 
-.nav__links{
+.nav__links {
     list-style: none;
 }
 
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
-}
+    .nav__links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
 
-.nav__links li a {
-    transition: all 0.3s ease 0s;
-}
+        .nav__links li a {
+            transition: all 0.3s ease 0s;
+        }
 
-.nav__links ;i a:hover{
-    color: #0099a9;
-}
+    .nav__links;i a:hover {
+        color: #0099a9;
+    }
 
-button{
+button {
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
     border: none;
