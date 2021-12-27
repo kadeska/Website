@@ -4,7 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+
+    /* background-color: #24252A; */
 }
 
 li, a, button {
@@ -16,10 +17,11 @@ li, a, button {
 }
 
 header {
+    background-color: #24252A;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 0px 3%;
 }
 
 
@@ -29,14 +31,17 @@ header {
 
 .nav__links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 20px 20px;
 }
 
-.nav__links li a {
-    transition: all 0.3s ease 0s;
-    border: groove;
-    border-radius: 50px;
-}
+    .nav__links li a {
+        transition: all 0.3s ease 0s;
+        border: thin;
+        border-radius: 10px;
+        border-bottom-width: medium;
+        border-style: solid;
+        border-color: #0099a9;
+    }
 
 .nav__links a:hover {
     color: #0099a9;
