@@ -1,15 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
+:root {
+    --background-color: #24252A;
+    --buton-background-color: rgba(0, 136, 169, 1);
+    --buton-hover-background-color: rgba(0,136,169,0.8);
+    --border-color: #0099a9;
+}
+/*
 article{
     width: clamp(100px, 50%, 600px);
-}
+} */
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
-    /* background-color: #24252A; */
+    /* background-color: var(--background-color); */
 }
 
 li, a, button {
@@ -21,7 +28,7 @@ li, a, button {
 }
 
 header {
-    background-color: #24252A;
+    background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +52,7 @@ header {
     border-radius: 20px;
     border-bottom-width: medium;
     border-style: solid;
-    border-color: #0099a9;
+    border-color: var(--border-color);
     cursor: pointer;
 }
 .nav__links li1 a {
@@ -55,17 +62,20 @@ header {
     border-radius: 20px;
     border-bottom-width: medium;
     border-style: solid;
-    border-color: #0099a9;
+    border-color: var(--border-color);
     cursor: pointer;
 }
 
+.project__list li {
+}
+
 .nav__links a:hover {
-    color: #0099a9;
+    color: var(--border-color);
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: var(--buton-background-color);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -73,7 +83,7 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: var(--buton-hover-background-color);
 }
 
 page-container {
