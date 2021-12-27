@@ -36,7 +36,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links;i a:hover {
+.nav__links a:hover {
     color: #0099a9;
 }
 
