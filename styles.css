@@ -72,11 +72,11 @@ header {
     border-color: var(--border-color);
     cursor: pointer;
 }
-
+/*
 .project__list li{
     list-style: circle;
     font-style: italic;
-}
+}*/
 
 .nav__links a:hover {
     color: var(--border-color);
