@@ -3,9 +3,10 @@
 :root {
     --background-color: #24252A;
     --buton-background-color: rgba(0, 136, 169, 1);
-    --buton-hover-background-color: rgba(0,136,169,0.8);
+    --buton-hover-background-color: rgba(0, 136, 169, 0.8);
     --border-color: #0099a9;
 }
+
 /*
 article{
     width: clamp(100px, 50%, 600px);
@@ -18,6 +19,7 @@ article{
 
     /* background-color: var(--background-color); */
 }
+
 /*
 li, a, button {
     font-family: 'Roboto', sans-serif;
@@ -27,9 +29,10 @@ li, a, button {
     text-decoration: none;
 } */
 
-body, html {
+body,
+html {
     height: 100%;
-  }
+}
 
 header {
     background-color: var(--background-color);
@@ -52,40 +55,40 @@ header {
     width: 100%;
     text-align: center;
     border: 2px dashed #f69c55;
-  }
+}
 
 .parallax {
     /* The image used */
     background-image: url('data/parallax.jpg');
-  
+
     /* Full height */
-    height: 100%; 
-  
+    height: 100%;
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-  }
+
+}
 
 .parallax-text {
     opacity: 1;
     color: black;
-    
+
 }
 
 .parallax-box {
     background: rgba(201, 75, 75, 0.342);
     /*opacity: 0.4;*/
-    height:200px;
+    height: 200px;
     /*background-color:red;*/
-    font-size:36px;
+    font-size: 36px;
     text-align: center;
     margin-top: -500px;
 }
 
-.nav__links a{
+.nav__links a {
     list-style: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -110,6 +113,7 @@ header {
     cursor: pointer;
     /*position: sticky;*/
 }
+
 .nav__links li1 a {
     transition: all 0.5s ease 0s;
     padding: 5px;
@@ -120,6 +124,7 @@ header {
     border-color: var(--border-color);
     cursor: pointer;
 }
+
 /*
 .project__list li{
     list-style: circle;
@@ -147,5 +152,5 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem; 
+    height: 2.5rem;
 }
