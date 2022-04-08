@@ -66,6 +66,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
 
 .parallax-text {
@@ -80,7 +81,8 @@ header {
     height:200px;
     /*background-color:red;*/
     font-size:36px;
-    text-align: center
+    text-align: center;
+    margin-top: -500px;
 }
 
 .nav__links a{
@@ -141,19 +143,9 @@ button:hover {
     background-color: var(--buton-hover-background-color);
 }
 
-page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
-content-wrap {
-    padding-bottom: 2.5rem; /* Footer height */
-}
-
-
-/* footer {
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem; 
-} */
+}
