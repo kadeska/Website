@@ -60,7 +60,7 @@ header {
 
 .parallax {
     /* The image used */
-    background-image: url('data/parallax.jpg');
+    /*background-image: url('data/parallax.jpg');*/
 
     /* Full height */
     height: 100%;
@@ -80,15 +80,14 @@ header {
 }
 
 .parallax-box {
-    background: rgba(201, 75, 75, 0.342);
+    background: rgba(255, 153, 0, 0.164);
     /*opacity: 0.4;*/
-    height: 200px;
+    height: 100%; /*1500px;*/
     /*background-color:red;*/
-    font-size: 36px;
+    font-size: 20px;
     text-align: center;
-
     margin: 50px;
-    margin-top: -500px;
+    margin-top: -600px;
 }
 
 
