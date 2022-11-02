@@ -12,7 +12,7 @@
     <header>
         <nav class="nav__links">
             <ul>
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="help.html">Help</a></li>
                 <li><a href="about.html">About</a></li>
