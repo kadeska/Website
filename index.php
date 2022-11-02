@@ -42,7 +42,9 @@
 
     </div>
 
+    <!--
     <iframe src="https://discordapp.com/widget?id=361934565520048148&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    -->
 
     <footer>
         <p>&copy; 2021 Me</p>
