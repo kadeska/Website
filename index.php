@@ -29,7 +29,15 @@
             Check out my Discord server!
         </p>
 
-        
+        <!-- Add images here -->
+        <div class="image-grid">
+            <!-- <img src="data/Pictures/My_Work/A(edited).jpg" alt="pottery"> -->
+
+            <?php
+            echo 'Hello World!';
+            ?>
+
+        </div>
 
     </div>
 
