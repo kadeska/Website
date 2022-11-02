@@ -21,7 +21,8 @@
         <a class="cta" href="contact.html"><button>Contact</button></a>
     </header>
 
-    <div class="parallax"></div>
+    <!-- <div class="parallax"></div> -->
+
     <div class="parallax-box">
         <p class="parallax-text">
             Welcome to my website!! <br>

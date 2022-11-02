@@ -44,6 +44,7 @@ header {
     align-items: center;
     padding: 1% 1%;
     
+    
 }
 
 
@@ -61,24 +62,26 @@ header {
     border: 2px dashed #f69c55;
 }
 
-.parallax {
-    /* The image used */
-    /*background-image: url('data/parallax.jpg');*/
 
-    /* Full height */
-    height: 100%;
+/* .parallax {
+/*     /* The image used */
+/*     /*background-image: url('data/parallax.jpg');*/
+/* 
+/*     /* Full height */
+/*     height: 100%;
+/* 
+/*     /* Create the parallax scrolling effect */
+/*     background-attachment: fixed;
+/*     background-position: center;
+/*     background-repeat: no-repeat;
+/*     background-size: cover;
+/* } */
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
 
 .parallax-text {
     opacity: 1;
     color: black;
+    padding: 20%;
 
 }
 
@@ -89,9 +92,9 @@ header {
     /*background-color:red;*/
     font-size: 18px;
     text-align: center;
-    /*margin-top: -550px;
-    /*margin-top: 0;
-    */
+    /*margin-top: -550px; */
+    margin-top: 0;
+    
 }
 
 
