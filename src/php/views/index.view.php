@@ -17,7 +17,7 @@
        <ul>
            <?php foreach($pictures as $picture) : ?>
                <li>
-                   <?= $book; ?>
+                   <?= $picture; ?>
                 </li>
             <?php endforeach; ?>
        </ul>
