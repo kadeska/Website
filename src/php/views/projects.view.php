@@ -1,30 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <title>Projects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="styles.css">
-</head>
+<?php require('partials/head.php') ?>
 
 <body>
-    <header>
-        <nav class="nav__links">
-            <ul>
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="help.html">Help</a></li>
-                <li><a href="about.html">About</a></li>
-                <!--
-                <li1><a href="https://github.com/kadeska/BeginningProject/archive/refs/heads/master.zip" download>
-                        download src files</a></li1>
-                <li1><a href="/data/text.txt" download> download .EXE file</a></li1>
-                -->
-            </ul>
-        </nav>
-        <a class="cta" href="contact.html"><button>Contact</button></a>
-    </header>
+    <?php require('partials/nav.php') ?>
     <div class="parallax"></div>
     <div class="parallax-box">
         <p class="parallax-text">
@@ -82,10 +61,7 @@
 
 
 
-
-    <footer>
-        <p>&copy; 2021 Me</p>
-    </footer>
+<?php require('partials/footer.php') ?>
 </body>
 
 </html>
