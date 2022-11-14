@@ -15,9 +15,10 @@
 
         <!-- Add images here -->
        <ul>
-           <?php foreach($pictures as $picture) : ?>
+           <?php foreach(clean_readdir($local_dir) as $picture) : ?>
                <li>
-                   <?= $picture; ?>
+                   <?= print_r($picture); ?>
+                   <?php echo '<img src="data/Pictures/My_Work/'.$picture.'">'; ?>
                 </li>
             <?php endforeach; ?>
        </ul>
