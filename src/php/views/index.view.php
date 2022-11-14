@@ -17,8 +17,10 @@
        <ul>
            <?php foreach(clean_readdir($local_dir) as $picture) : ?>
                <li>
-                   <?= print_r($picture); ?>
-                   <?php echo '<img src="data/Pictures/My_Work/'.$picture.'">'; ?>
+                   <!-- Clean this up in the future -->
+                   <div class="image-grid">
+                       <?php echo '<img src="data/Pictures/My_Work/'.$picture.'">'; ?>
+                    </div>
                 </li>
             <?php endforeach; ?>
        </ul>
@@ -33,3 +35,4 @@
 </body>
 
 </html>
+<!-- A comment -->

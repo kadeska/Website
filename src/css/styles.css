@@ -161,3 +161,32 @@ footer {
     height: 20px;
     background-color: white;
 }
+
+/* Photo gallery */
+
+.image-grid {
+    --gap: 5px;
+    --num-cols: 2;
+    --row-height: 600px;
+    box-sizing: border-box;
+    border: var(--gap);
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+.image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Anything udner 1024px */
+@media screen and (max-width: 1024px) {
+    .image-grid {
+        --num-cols: 2;
+        --row-height: 300px;
+    }
+}
