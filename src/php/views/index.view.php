@@ -14,6 +14,7 @@
         </p>
 
         <!-- Add images here -->
+        <!-- Note to self, make sure you update the host server code first before comitting to github -->
        <ul class="image-grid">
            <?php foreach(clean_readdir($local_dir) as $picture) : ?>
                <li>

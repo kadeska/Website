@@ -1,0 +1,2 @@
+    - Note to self, make sure you update the host server code first before comitting to github.
+    
