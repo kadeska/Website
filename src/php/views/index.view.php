@@ -14,11 +14,11 @@
         </p>
 
         <!-- Add images here -->
-       <ul>
+       <ul class="image-grid">
            <?php foreach(clean_readdir($local_dir) as $picture) : ?>
                <li>
                    <!-- Clean this up in the future -->
-                   <div class="image-grid">
+                   <div>
                        <?php echo '<img src="data/Pictures/My_Work/'.$picture.'">'; ?>
                     </div>
                 </li>
