@@ -17,9 +17,9 @@ function clean_readdir($dir){
 }
 
 function pre_r($array){
-    echo '<pre>';
+    // echo '<pre>';
 	print_r($array);
-	echo '</pre>';
+	// echo '</pre>';
 }
 
 require "php/views/index.view.php";
