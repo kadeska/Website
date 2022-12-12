@@ -19,7 +19,7 @@
            <?php foreach(clean_readdir($local_dir) as $picture) : ?>
                <li>
                    <!-- Clean this up in the future -->
-                   <div>
+                   <div class="image">
                        <?php echo '<img src="data/Pictures/My_Work/'.$picture.'">'; ?>
                     </div>
                 </li>

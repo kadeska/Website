@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\data",
-    "\\data\\Pictures"
+    "\\src",
+    "\\src\\css",
+    "\\src\\data",
+    "\\src\\data\\Pictures",
+    "\\src\\data\\Pictures\\My_Work"
   ],
-  "SelectedNode": "\\projects.html",
+  "SelectedNode": "\\src\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }
