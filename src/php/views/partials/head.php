@@ -5,5 +5,5 @@
     <link rel="stylesheet" type="text/css" href="css/Body_Style.css">
     <link rel="stylesheet" type="text/css" href="css/Photo_Gallery_Style.css">
     <link rel="stylesheet" type="text/css" href="css/Nav_Style.css">
-    <script src="js/Dropdown_Script.js"></script>
+    <script src="js/Dropdown_Script.js" async></script>
 </head>
