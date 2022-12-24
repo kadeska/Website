@@ -1,21 +1,12 @@
 <header>
-<nav>
-    <div class="dropdown_mode">
-        <button onclick="toggleDropdown()">Menu</button>
-        <select id="Dropdown">
-            <option value="index.php">Home</option>
-            <option value="projects.php">Home</option>
-            <option value="help.php">Home</option>
-            <option value="about.php">About</option>
-            <option value="contact.php">Contact</option>
-        </select>
-    </div>
-    <div class="landscape_mode">
-        <a href="index.php">Home</a>
-        <a href="projects.php">Projects</a>
-        <a href="help.php">Help</a>
-        <a href="about.php">About</a>
-        <a href="contact.php">Contact</a>
-    </div>
-</nav>
+<!-- Add a navigation bar to the top of the page -->
+    <nav class="menu-parent-nav">
+        <button class="menu-button" onclick="toggleMenu()" onmouseover="toggleMenu()">Menu</button>
+        <ul class="menu" id="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 </header>

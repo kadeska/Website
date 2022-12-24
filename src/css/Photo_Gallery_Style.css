@@ -42,18 +42,3 @@
 .photo-grid img:nth-of-type(odd) {
     background-color: #ccc;
 }
-
-/* Make the navigation links into a dropdown menu on small screens */
-@media only screen and (max-width: 600px) {
-    nav {
-        display: block;
-    }
-
-    button {
-        display: inline-block;
-    }
-
-    #Dropdown {
-        display: none;
-    }
-}

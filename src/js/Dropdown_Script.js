@@ -1,8 +1,8 @@
-function toggleDropdown() {
-    var dropdown = document.getElementById("Dropdown");
-    if (dropdown.style.display === "block") {
-        dropdown.style.display = "none";
+async function toggleMenu() {
+    var menu = document.getElementById("menu");
+    if (menu.style.display === "none") {
+        menu.style.display = "flex";
     } else {
-        dropdown.style.display = "block";
+        menu.style.display = "none";
     }
 }
