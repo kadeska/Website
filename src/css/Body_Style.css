@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+:root {
+    /*
+    --background-color: #24252A;
+    --buton-background-color: rgba(0, 136, 169, 1);
+    --buton-hover-background-color: rgba(0, 136, 169, 0.8);
+    --border-color: #0099a9;
+        */
+}
+
+body {
+    margin-top: 73px;
+}
 
 footer {
     /*position: absolute;*/
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 20px;
-    background-color: white;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    /*height: 20px;*/
+    /*background-color: white;*/
 }
