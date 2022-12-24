@@ -1,0 +1,59 @@
+/* Add a responsive layout for the photo gallery */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-gap: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    height: 80vh;
+    overflow: auto;
+    padding: 30px;
+    border: dotted 2px;
+}
+
+    /* Style the photos in the photo grid */
+    .photo-grid img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+        /* Add a hover effect for the photos */
+        .photo-grid img:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+/* Add a responsive layout for the photo grid on small screens */
+@media (max-width: 1180px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, minmax(150px, 1fr));
+    }
+}
+/* Add a responsive layout for the photo grid on small screens */
+@media (max-width: 600px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+/* Create a checkerboard grid layout for the photos */
+.photo-grid img:nth-of-type(odd) {
+    background-color: #ccc;
+}
+
+/* Make the navigation links into a dropdown menu on small screens */
+@media only screen and (max-width: 600px) {
+    nav {
+        display: block;
+    }
+
+    button {
+        display: inline-block;
+    }
+
+    #Dropdown {
+        display: none;
+    }
+}

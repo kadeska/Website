@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+:root {
+    /*
+    --background-color: #24252A;
+    --buton-background-color: rgba(0, 136, 169, 1);
+    --buton-hover-background-color: rgba(0, 136, 169, 0.8);
+    --border-color: #0099a9;
+        */
+}
+
+/* Style the header bar/Parent */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Style the button */
+button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+/* Make the navigation links into a dropdown menu on small screens/portriat mode */
+@media only screen and (orientation: portrait) {
+    /* Style the dropdown menu */
+    #Dropdown {
+        display: none;
+        font-size: 18px;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: dotted 1px;
+    }
+
+    /* Style the options in the dropdown menu */
+    #Dropdown option {
+        background-color: #333;
+        color: white;
+    }
+
+    /* Change the color of the options on hover */
+    #Dropdown:hover option {
+        background-color: #111;
+    }
+
+    /* Style the active option */
+    #Dropdown option.active {
+        background-color: #4CAF50;
+    }
+
+    .landscape_mode {
+        display: none;
+    }
+
+    .dropdown_mode {
+        display: inline-block;
+    }
+
+    button {
+        display: inline-block;
+    }
+
+    #Dropdown {
+        display: none;
+    }
+}
+
+/* Make the navigation links into a header menu on large screens/landscape mode */
+@media only screen and (orientation: landscape) {
+    /* Style the landscape menu */
+    .landscape_mode {
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+        border: dotted 1px;
+    }
+
+    /* Style the landscape menu Links/Items */
+    .landscape_mode a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    /* Style the options in the dropdown menu */
+    .landscape_mode {
+        display: inline-block;
+        background-color: #333;
+        color: white;
+    }
+
+    /* Change the color of the options on hover */
+    .landscape_mode a:hover {
+        background-color: #111;
+    }
+
+    /* Style the active link */
+    .landscape_mode a.active {
+        background-color: #4CAF50;
+    }
+
+    .dropdown_mode {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    #Dropdown {
+        display: none;
+    }
+}
