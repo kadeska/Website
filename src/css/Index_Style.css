@@ -1,0 +1,125 @@
+*, root {
+    /*border: 1px dotted black;*/
+    --color_01: #edf9ff;
+    --color_02: #c9e4ef;
+    --color_03: #53c0ea;
+    --color_04: #1eb6f1;
+    font-family: "montserrat",sans-serif;
+}
+
+body {
+    background-color: var(--color_01);
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    align-content: start;
+    min-height: 100vh;
+}
+
+/*  Start of
+    *  Highlight effect styling 
+    */
+.highlight {
+    display: inline-block;
+    cursor: pointer;
+    background-image: linear-gradient(#f2f36f, #e1ac59);
+    background-repeat: no-repeat;
+    background-size: 2% 90%;
+    background-position: 0 4px;
+    transition: background-size 0.5s, background-position 0.2s 0.6s;
+}
+
+    .highlight:hover {
+        background-size: 100% 100%;
+        background-position: 0 30px;
+        transition: background-size 0.5s 0.2s, background-position 0.5s 0.8s;
+    }
+
+div.highlight {
+    border-radius: 15px 45px;
+    block-size: fit-content;
+}
+
+.button {
+    --padding_left_button: 7px;
+    --padding_right_button: 4px;
+    --padding_bottom_button: 0px;
+    --margin_button: 0px;
+    position: center;
+    padding-left: var(--padding_left_button);
+    padding-right: var(--padding_right_button);
+    padding-bottom: var(--padding_bottom_button);
+    margin: var(--margin_button);
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+/*  End of
+    *  Highlight styling 
+    */
+
+
+/*  Start of
+    *  About Me styling 
+    */
+
+.about_me {
+    --border_radius_about_me: 8px 8px;
+    --grid_template_columns_about_me: 50% 50%;
+    --padding_about_me: 10px;
+    /*background-color: var(--color_02);*/
+    /*display: grid;*/
+    grid-template-columns: var(--grid_template_columns_about_me);
+    align-content: center;
+    justify-content: center;
+    padding: var(--padding_about_me);
+    /*gap: 5px;*/
+    border-radius: var(--border_radius_about_me);
+}
+
+h1.name {
+    --padding_name: 1px;
+    --margin_name: 1px;
+    color: red;
+    padding: var(--padding_name);
+    margin: var(--margin_name);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.box01, .box02, .box03, .box04 {
+    --margin_box: 10px;
+    --padding_box: 5px;
+    --font_size_h2: 20px;
+    background-color: var(--color_03);
+    display: inherit;
+    justify-content: center;
+    padding: var(--padding_box);
+    margin: var(--margin_box);
+    border-style: outset;
+    border-color: #a9cedc;
+    border-radius: inherit;
+}
+
+h2 {
+    display: inherit;
+}
+
+.title {
+    background-color: var(--color_04);
+    border-radius: inherit;
+    text-align: center;
+}
+
+/*  End of
+    *  About Me styling 
+    */
+
+/*  Start of
+    *  Contact Me card styling 
+    */
+

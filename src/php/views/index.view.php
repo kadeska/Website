@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <?php require('partials/head.php') ?>
-    <body>
-        <?php require('partials/nav.php') ?>
-        <div class="body_element">
-            <p>
-                Welcome to my website!! <br>
-                Here I will show you all of my past and current projects.
-                Check out my Discord server!
-            </p>
-            <!-- Photo Gallery -->
-            <!-- Note to self, make sure you update the host server code first before comitting to github -->
-            <div class="photo-grid">
-                <!-- Add photos here -->
-                <?php foreach(clean_readdir($local_dir) as $picture) : ?>
-                    <!-- Clean this up in the future -->
-                    <?php echo '<img src="data/Pictures/My_Work/'.$picture.'">'; ?>
-                <?php endforeach; ?>
-            </div>
+<!-- This is a cool graphical design. -->
+<head>
+    <title>Testing</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body>
+    <div class="highlight">
+        <h1 class="button">
+            <a href="###" class="link">Joseph Hernandez</a>
+        </h1>
+    </div>
+
+    <!--This will be on a seperate page for About Me, above link will take you there.-->
+    <!--Future todo: try to make this fullt dynamic with PHP and reading a local txt document
+                     that contains all the basic info like title and content.-->
+    <!--<h1 class="name">Joseph Hernandez</h1>-->
+    <div class="about_me">
+        <div class="box01">
+            <h2 class="title">Ceramic Arts</h2>
+            Link to Facebook Page
+            Link to website gallery
         </div>
-        <?php require('partials/footer.php') ?>
-    </body>
+        <div class="box02">
+            <h2 class="title">2D/3D Video Game Design</h2>
+            make a list here of the following: Vulkan, OpenGL, C++, Java, C#
+        </div>
+        <div class="box03">
+            <h2 class="title">Other personal projects</h2>
+            Computer science, and talk about college
+        </div>
+        <div class="box04">
+            <h2 class="title">Contact Me</h2>
+
+        </div>
+    </div>
+
+</body>
 </html>
-<!-- A comment -->

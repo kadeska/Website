@@ -3,10 +3,10 @@
     "",
     "\\src",
     "\\src\\css",
-    "\\src\\data",
-    "\\src\\data\\Pictures",
-    "\\src\\data\\Pictures\\My_Work"
+    "\\src\\js",
+    "\\src\\php",
+    "\\src\\php\\views",
+    "\\src\\php\\views\\partials"
   ],
-  "SelectedNode": "\\src\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }

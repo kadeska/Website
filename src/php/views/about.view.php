@@ -4,12 +4,13 @@
 
 <body>
 <?php require('partials/nav.php') ?>
-    <div class="parallax"></div>
-    <div class="parallax-box">
-        <p class="parallax-text">
-            something here.
+    
+        <p id="Highlight">
+        <!-- Bold and Highlighted with cool wave background -->
+            <div id="magic">
+                Joseph Hernandez
+            </div>
         </p>
-    </div>
 <?php require('partials/footer.php') ?>
 </body>
 
