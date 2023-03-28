@@ -4,12 +4,9 @@
 
 <body>
 <?php require('partials/nav.php') ?>
-    <div class="parallax"></div>
-    <div class="parallax-box">
-        <p class="parallax-text">
+        <p>
             something here.
         </p>
-    </div>
 <?php require('partials/footer.php') ?>
 </body>
 

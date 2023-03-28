@@ -1,6 +1,6 @@
 *, root {
     /*border: 1px dotted black;*/
-    --color_01: #edf9ff;
+    --color_01: #4b9ac2;
     --color_02: #c9e4ef;
     --color_03: #53c0ea;
     --color_04: #1eb6f1;
@@ -63,43 +63,33 @@ div.highlight {
 
 
 /*  Start of
-    *  About Me styling 
+    *  Main_Body styling 
     */
 
-.about_me {
-    --border_radius_about_me: 8px 8px;
-    --grid_template_columns_about_me: 50% 50%;
-    --padding_about_me: 10px;
+.Main_Body {
+    --border_radius_main_body: 8px 8px;
+    --grid_template_columns_main_body: 50% 50%;
+    --padding_main_body: 1px;
     /*background-color: var(--color_02);*/
     /*display: grid;*/
-    grid-template-columns: var(--grid_template_columns_about_me);
+    grid-template-columns: var(--grid_template_columns_main_body);
     align-content: center;
     justify-content: center;
-    padding: var(--padding_about_me);
+    padding: var(--padding_main_body);
     /*gap: 5px;*/
-    border-radius: var(--border_radius_about_me);
-}
-
-h1.name {
-    --padding_name: 1px;
-    --margin_name: 1px;
-    color: red;
-    padding: var(--padding_name);
-    margin: var(--margin_name);
-    display: grid;
-    justify-content: center;
-    align-content: center;
+    border-radius: var(--border_radius_main_body);
 }
 
 .box01, .box02, .box03, .box04 {
-    --margin_box: 10px;
+    --margin_box: 7px;
     --padding_box: 5px;
-    --font_size_h2: 20px;
+    --font_size_box: 12px;
     background-color: var(--color_03);
     display: inherit;
     justify-content: center;
     padding: var(--padding_box);
     margin: var(--margin_box);
+    font-size: var(--font_size_box);
     border-style: outset;
     border-color: #a9cedc;
     border-radius: inherit;
@@ -110,10 +100,22 @@ h2 {
 }
 
 .title {
+    --padding_name: 1px;
+    --margin_name: 1px;
+    --font_size_title: 20px;
     background-color: var(--color_04);
     border-radius: inherit;
     text-align: center;
+    color: darkslateblue;
+    cursor: pointer;
+    padding: var(--padding_name);
+    margin: var(--margin_name);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: var(--font_size_title);
 }
+
 
 /*  End of
     *  About Me styling 

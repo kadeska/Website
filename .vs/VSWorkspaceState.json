@@ -3,10 +3,8 @@
     "",
     "\\src",
     "\\src\\css",
-    "\\src\\js",
     "\\src\\php",
-    "\\src\\php\\views",
-    "\\src\\php\\views\\partials"
+    "\\src\\php\\views"
   ],
   "PreviewInSolutionExplorer": false
 }
