@@ -4,6 +4,7 @@
     --color_02: #c9e4ef;
     --color_03: #53c0ea;
     --color_04: #1eb6f1;
+    --border_radius: 8px 8px;
     font-family: "montserrat",sans-serif;
 }
 
@@ -67,7 +68,6 @@ div.highlight {
     */
 
 .Main_Body {
-    --border_radius_main_body: 8px 8px;
     --grid_template_columns_main_body: 50% 50%;
     --padding_main_body: 1px;
     /*background-color: var(--color_02);*/
@@ -77,7 +77,7 @@ div.highlight {
     justify-content: center;
     padding: var(--padding_main_body);
     /*gap: 5px;*/
-    border-radius: var(--border_radius_main_body);
+    border-radius: var(--border_radius);
 }
 
 .box01, .box02, .box03, .box04 {
@@ -92,7 +92,7 @@ div.highlight {
     font-size: var(--font_size_box);
     border-style: outset;
     border-color: #a9cedc;
-    border-radius: inherit;
+    border-radius: var(--border_radius);
 }
 
 h2 {
