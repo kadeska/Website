@@ -4,7 +4,7 @@
     --color_02: #c9e4ef;
     --color_03: #53c0ea;
     --color_04: #1eb6f1;
-    --border_radius: 8px 8px;
+    --border_radius: 25px 25px;
     font-family: "montserrat",sans-serif;
 }
 
@@ -12,9 +12,9 @@ body {
     background-color: var(--color_01);
     display: grid;
     align-content: center;
+    /* align-content: start; */
+    /* min-height: 100vh; */
     justify-items: center;
-    align-content: start;
-    min-height: 100vh;
 }
 
 /*  Start of
@@ -70,20 +70,25 @@ div.highlight {
 .Main_Body {
     --grid_template_columns_main_body: 50% 50%;
     --padding_main_body: 1px;
-    /*background-color: var(--color_02);*/
-    /*display: grid;*/
+    background-color: var(--color_02);
+    display: grid;
     grid-template-columns: var(--grid_template_columns_main_body);
     align-content: center;
     justify-content: center;
-    padding: var(--padding_main_body);
-    /*gap: 5px;*/
+    /* padding: var(--padding_main_body); */
+    /* gap: 5px; */
     border-radius: var(--border_radius);
+    position: absolute;
+    position: absolute;
+    top: 40px;
+    bottom: 20px;
+    width: 100%;
 }
 
 .box01, .box02, .box03, .box04 {
-    --margin_box: 7px;
-    --padding_box: 5px;
-    --font_size_box: 12px;
+    --margin_box: 1em;
+    --padding_box: 1em;
+    --font_size_box: 2.5em;
     background-color: var(--color_03);
     display: inherit;
     justify-content: center;
@@ -102,7 +107,7 @@ h2 {
 .title {
     --padding_name: 1px;
     --margin_name: 1px;
-    --font_size_title: 20px;
+    --font_size_title: 53px;
     background-color: var(--color_04);
     border-radius: inherit;
     text-align: center;

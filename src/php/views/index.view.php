@@ -29,11 +29,11 @@
             make a list here of the following: Vulkan, OpenGL, C++, Java, C#
         </div>
         <div class="box03">
-            <a href="" class="title">Other personal projects</a>
+            <a href="projects.php" class="title">Other personal projects</a>
             Computer science, and talk about college
         </div>
         <div class="box04">
-            <a href="####" class="title">Contact Me</a>
+            <a href="contact.php" class="title">Contact Me</a>
 
         </div>
     </div>
