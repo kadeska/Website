@@ -20,20 +20,20 @@
     <div class="Main_Body">
         <!--Make this dynamic with PHP. Needs to be able to grow and expand or update fast and easy-->
         <div class="box01">
-            <a href="ceramics.php" class="title">Ceramic Arts</a>
+            <a href="src/ceramics.php" class="title">Ceramic Arts</a>
             Link to Facebook Page
             Link to website gallery
         </div>
         <div class="box02">
-            <a href="projects_game_design.php" class="title">2D/3D Video Game Design</a>
+            <a href="src/projects_game_design.php" class="title">2D/3D Video Game Design</a>
             make a list here of the following: Vulkan, OpenGL, C++, Java, C#
         </div>
         <div class="box03">
-            <a href="projects.php" class="title">Other personal projects</a>
+            <a href="src/projects.php" class="title">Other personal projects</a>
             Computer science, and talk about college
         </div>
         <div class="box04">
-            <a href="contact.php" class="title">Contact Me</a>
+            <a href="src/contact.php" class="title">Contact Me</a>
 
         </div>
     </div>
