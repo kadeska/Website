@@ -3,10 +3,10 @@
     <nav class="menu-parent-nav">
         <button class="menu-button" onclick="toggleMenu()" onmouseover="toggleMenu()">Menu</button>
         <ul class="menu" id="menu">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="projects.php">Projects</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="src/index.php">Home</a></li>
+            <li><a href="src/about.php">About</a></li>
+            <li><a href="src/projects.php">Projects</a></li>
+            <li><a href="src/contact.php">Contact</a></li>
         </ul>
     </nav>
 </header>
