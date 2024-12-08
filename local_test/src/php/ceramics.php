@@ -1,6 +1,6 @@
 <?php
 $heading = 'My Work Gallery';
-$local_dir = 'src/data/Pictures/My_Work';
+$local_dir = '../data/Pictures/My_Work';
 $files = clean_readdir($local_dir);
 
 function clean_readdir($dir){
@@ -23,7 +23,7 @@ function pre_r($array){
 }
 
 // Uncomment this for debugging
- pre_r($files);
+// pre_r($files);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -63,8 +63,11 @@ function pre_r($array){
     </div>
 </body>
 </html>
+
+<!--
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 include 'php/portfolio.php';
 ?>
+-->
