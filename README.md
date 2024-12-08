@@ -1,4 +1,9 @@
-# Readme page
+
+
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    # Readme page
  
  [![pages-build-deployment](https://github.com/kadeska/Website/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/kadeska/Website/actions/workflows/pages/pages-build-deployment)
 
@@ -14,3 +19,6 @@ You can find pictures of my artwork and you can also find information about my p
 ##### I'm still learning
 
 I have been working with c++ and HTML for at least four(4) years now, and I still feel like I'm a beginner or mid teir developer. I am working on my Website and my C++ game development together at the same time. Taking breaks when necessary to avoid burnout, and to avoid throwing my laptop across the room because I am struggling to find the solution to a bug. 
+
+</body>
+</html>
