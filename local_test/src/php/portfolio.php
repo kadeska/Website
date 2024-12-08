@@ -1,3 +1,6 @@
+<!-- Adding the nav bar here is an alternative look
+ <?php include 'navagationBar.php';//__NAVIGATION_BAR__?> 
+ -->
 <?php
 $portfolio_items = [
     [

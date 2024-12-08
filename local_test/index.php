@@ -8,6 +8,7 @@
 </head>
 <body>
     <header>
+        <?php include 'src/php/navagationBar.php';//__NAVIGATION_BAR__?>
         <h1>My Portfolio</h1>
     </header>
     <div class="portfolio">
@@ -22,11 +23,18 @@
         }
         ?>
     </div>
+    <footer>
+	<small>© <script>document.write(new Date().getFullYear())</script> Your company name. All Rights Reserved.</small>
+	</footer>
+	<script src="app.js"></script>
 </body>
 </html>
+
+<!-- This is for debugging errors
 <?php include 'php/portfolio.php'; var_dump($portfolio_items); ?>
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 include 'php/portfolio.php';
 ?>
+-->

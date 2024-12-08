@@ -1,3 +1,4 @@
+<?php include 'navagationBar.php';//__NAVIGATION_BAR__?>
 <?php
 $heading = 'My Work Gallery';
 $local_dir = '../data/Pictures/My_Work';
