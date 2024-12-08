@@ -1,14 +1,14 @@
 <?php
 $portfolio_items = [
     [
-        "title" => "Project 1",
+        "title" => "2D Adventure RPG game development",
         "description" => "A description of Project 1.",
         "link" => "https://example.com/project1"
     ],
     [
-        "title" => "Project 2",
+        "title" => "Ceramics art",
         "description" => "A description of Project 2.",
-        "link" => "https://example.com/project2"
+        "link" => 'src/php/ceramics.php'
     ],
     [
         "title" => "Project 3",
@@ -16,4 +16,3 @@ $portfolio_items = [
         "link" => "https://example.com/project3"
     ]
 ];
-?>
