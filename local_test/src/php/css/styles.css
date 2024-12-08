@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+.portfolio-item {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.portfolio-item h2 {
+    margin: 0;
+}
+.portfolio-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+.portfolio-item a:hover {
+    text-decoration: underline;
+}

@@ -21,5 +21,3 @@ function pre_r($array){
 	print_r($array);
 	// echo '</pre>';
 }
-
-require "php/views/ceramics.view.php";
