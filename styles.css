@@ -27,6 +27,11 @@ li, a, button {
     text-decoration: none;
 } */
 
+html {
+    border: dashed;
+    --background-color: aqua;
+}
+
 header {
     
 
