@@ -18,6 +18,59 @@ article{
 
     /* background-color: var(--background-color); */
 }
+
+/* -------- Start Shapes -------- */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.rectangle-vert {
+    width: 70px;
+    height: 140px;
+    border: 1px solid;
+}
+.rectangle-horiz {
+    width: 140px;
+    height: 70px;
+    border: 1px solid;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.oval-vert {
+    width: 70px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.oval-horiz {
+    width: 140px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+.line-horiz {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+.line-vert {
+    width: 1px;
+    height: 100px;
+    background-color: black;
+}
+/* -------- End Shapes -------- */
+
 /*
 li, a, button {
     font-family: 'Roboto', sans-serif;
@@ -31,17 +84,13 @@ html {
     border: dashed;
     --background-color: aqua;
 }
-
 header {
-    
-
     background-color: var(--background-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 3%;
 }
-
 
 .nav__links a{
     list-style: none;
@@ -67,16 +116,7 @@ header {
     border-color: var(--border-color);
     cursor: pointer;
 }
-.nav__links li1 a {
-    transition: all 0.5s ease 0s;
-    padding: 5px;
-    border: thin;
-    border-radius: 20px;
-    border-bottom-width: medium;
-    border-style: solid;
-    border-color: var(--border-color);
-    cursor: pointer;
-}
+
 /*
 .project__list li{
     list-style: circle;
@@ -109,9 +149,9 @@ content-wrap {
     padding-bottom: 2.5rem; /* Footer height */
 }
 
-footer {
-    position: absolute;
+/* footer {
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 2.5rem; /* Footer height */
-}
+    height: 3px;
+} */
